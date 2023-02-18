@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(29, 37, 51);
+    color: aliceblue;
+    
+
+}
+.main{
+    width: 100%;
+    height: 100%vh;
+    font-size: 16px;  
+}
+span{
+    color:brown
+}
+h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+nav{
+    padding-top:40px;
+    padding-left: 80px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 15px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+    transition: 0.5;
+}
+nav ul li a:hover{
+    color: brown;
+    transform: scale(2.1,2.1);
+
+}
+.btn{
+    color: aliceblue;
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;  
+    padding: 10px 20px;
+        border-radius: 30px;
+    transition: 0.8s;
+}
+.btn:hover{
+    background-color: blue;
+    transform: scale(1.2);
+}
+.contents{
+    flex-grow: 1;
+    padding-left: 80px;
+    padding-top: 150px;    
+}
+h1{
+    font-size: 25px;
+    margin-top:15px;
+    margin-bottom: 40px;
+}
+h4{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+h3{
+    font-size:12px ;
+    margin-top: 70px;    
+}
+h5{
+    font-size:15px ;
+    margin-bottom: 50px;
+}
+.social{
+    margin-top: 30px;
+}
+.social img{
+    margin-right: 15px;
+    width: 35px;
+    transition: 0.5s;
+}
+.social img:hover{
+    transform: scale(1.2,1.2);
+}
+.content_images{
+    width: 40%;
+    height: 90%;
+    align-self: flex-end;
+    border-radius: 10px;
+}
+.content_images img{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 70px;
+    left: 50%;
+    height: 60%;
+    transform: translateZ(-50%);
+    border-radius: 10px;
+}
+.search{
+    padding-left: 50%;
+    position: absolute;
+    bottom:75% ;
+    padding-left: 50px;
+}
+.search1
+{
+    width: 350px;
+    height: 30px;
+    font-size: 12px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);   
+}
+.search_btn
+{
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(249, 254, 255);
+    transition: 0.5s;   
+}
